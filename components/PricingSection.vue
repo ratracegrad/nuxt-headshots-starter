@@ -33,7 +33,7 @@
         <div class="mt-10 text-center">
           <NuxtLink to="/login">
             <ButtonComponent
-              class="w-3/4 bg-primary text-white shadow hover:bg-primary/90"
+              class="w-3/4 shadow bg-primary text-white hover:bg-primary/90"
             >
               {{ option.buttonText }}
             </ButtonComponent>

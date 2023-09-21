@@ -43,12 +43,10 @@
   </div>
 </template>
 
-<script>
-export default {
-  setup() {
-    return {};
-  },
-};
+<script setup>
+useHead({
+  title: 'Nuxt Headshots AI',
+});
 </script>
 
 <style lang="scss" scoped></style>
